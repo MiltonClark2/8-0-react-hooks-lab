@@ -2,7 +2,7 @@ import React from "react";
 import "./NavBar.css";
 
 
-function NavBar (){
+const NavBar = () => {
   return (
     <nav>
       <h1>Northwest Animal Hospital</h1>

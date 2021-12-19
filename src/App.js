@@ -1,6 +1,6 @@
 import React from "react";
 // import AnimalTypes from "./Components/AnimalTypes";
-// import FirstPet from "./Components/FirstPet";
+import FirstPet from "./Components/FirstPet";
 import Footer from "./Components/Footer";
 import NavBar from "./Components/NavBar";
 // import NewClient from "./Components/NewClient";
@@ -11,13 +11,13 @@ const App = () => {
   return (
     <>
       <NavBar />
-      {/* <main>
+      <main>
         <FirstPet />
-        <NumberOfPets />
+        {/* <NumberOfPets />
         <NewClient />
         <AnimalTypes />
-        <PetList />
-      </main> */}
+        <PetList /> */}
+      </main>
       <Footer />
     </>
   );
