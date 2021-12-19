@@ -1,23 +1,23 @@
 import React from "react";
-import AnimalTypes from "./Components/AnimalTypes";
-import FirstPet from "./Components/FirstPet";
+// import AnimalTypes from "./Components/AnimalTypes";
+// import FirstPet from "./Components/FirstPet";
 import Footer from "./Components/Footer";
 import NavBar from "./Components/NavBar";
-import NewClient from "./Components/NewClient";
-import NumberOfPets from "./Components/NumberOfPets";
-import PetList from "./Components/PetList";
+// import NewClient from "./Components/NewClient";
+// import NumberOfPets from "./Components/NumberOfPets";
+// import PetList from "./Components/PetList";
 
 const App = () => {
   return (
     <>
       <NavBar />
-      <main>
+      {/* <main>
         <FirstPet />
         <NumberOfPets />
         <NewClient />
         <AnimalTypes />
         <PetList />
-      </main>
+      </main> */}
       <Footer />
     </>
   );
