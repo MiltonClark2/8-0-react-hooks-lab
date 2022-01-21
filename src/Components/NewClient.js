@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NewClient.css";
 
-class NewClient extends React.Component {
-  render() {
-    return (
-      <section className="new-client">
+
+const NewClient = () => {
+  const [ firstName, setFirstName] = useState("");
+  const [ lastName, setLastName ] = useState("");
+  const [ telephone, setTelephone ] = useState("");
+  const [ email, setEmail ] = useState("");
+
+  return (
+    <section className="new-client">
         <h4>New Client Info</h4>
         <div>
           <form>
@@ -24,9 +29,8 @@ class NewClient extends React.Component {
             <h5>email</h5>
           </article>
         </div>
-      </section>
-    );
-  }
-}
+    </section>
+  );
+};
 
 export default NewClient;
