@@ -3,7 +3,7 @@ import React from "react";
 import FirstPet from "./Components/FirstPet";
 import Footer from "./Components/Footer";
 import NavBar from "./Components/NavBar";
-// import NewClient from "./Components/NewClient";
+import NewClient from "./Components/NewClient";
 import NumberOfPets from "./Components/NumberOfPets";
 // import PetList from "./Components/PetList";
 
@@ -14,8 +14,8 @@ const App = () => {
       <main>
         <FirstPet />
         <NumberOfPets />
-        {/* <NewClient />
-        <AnimalTypes />
+        <NewClient />
+        {/* <AnimalTypes />
         <PetList /> */}
       </main>
       <Footer />
